@@ -40,3 +40,4 @@ class TestTag(object):
             assert a == "1"
         with allure.step("步骤2"):
             allure.attach("结果2", "修改后的内容", allure.attachment_type.TEXT)
+if
